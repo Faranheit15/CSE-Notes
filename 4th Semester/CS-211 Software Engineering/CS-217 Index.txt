@@ -1,0 +1,10 @@
+Intro SE S lifecycle
+flow chart
+DFD
+ER
+Use case diagram
+Activity diag
+Class Diah
+Object diagram
+Sequence diagr
+State diag

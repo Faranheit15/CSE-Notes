@@ -1,0 +1,4 @@
+We can use constructor to intialize instance varible during object creation.
+We can use constructor to initialize an object not to create object.
+Whenever we are creating an object, some ppiece of code will be executed automatically to perform initialisation of the object. This piece of code is nothing but constructor.
+Hence, the main purpose of constructor is to perform initialisation of an object but not to create object.

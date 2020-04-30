@@ -1,0 +1,84 @@
+All the only applicable modifier for constructor are public, private, protected. If we are trying to use any other modifier, we will get compile time error.
+class <name>
+{
+	static
+
+Default Constructor
+class Test
+{
+	Test(int x)
+	{}
+	public static void main(String []args)
+	{
+		Test o=new Test();
+	}
+}
+This program will give an error because we haven't given the parameter to the Constructor and since we have created a constructor of pour own, so the compiler will not provide us with a default constructor.
+
+Compiler is responsible to generate a default constructor but not jvm.
+
+//1. Compiler will provide  a defaiult constructor
+class Test
+{
+}
+
+//2. Compiler will provide with a default constructor
+class Test
+{
+	void Test()
+	{
+	}
+}
+
+//3. Compiler will not provide with a default constructor
+class Test
+{
+	Test()
+	{
+	}
+}
+
+//4. 
+class Test
+{
+	Test()
+	{
+		System.out.println("");
+		Super();
+	}
+}
+We can use super() or this() only in first line of constructor .If we are trying to take anywhere else we will get compile-time error.
+
+We can use super() or this() only inside a constructor. If we are trying to use outside the constructor, we will get compile time error.
+
+class P
+{
+	int x=100;
+}
+class C extends P
+{
+	int x=50;
+	void m()
+	{
+		Sopln(super.x);
+		Sopln(this.x);
+	}
+	public static void main(String [] args)
+	{
+		C o=new C();
+	}
+}
+
+//Method overloading
+class T
+{
+	int add(int a, int b)
+	{
+	}
+	int add(int a, int b, int c)
+	{
+	}
+	double add(double a, double b)
+	{
+	}
+}

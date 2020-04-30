@@ -1,0 +1,4 @@
+0. Design and study of IC 7408, 7404, 7400, 7432, 7402, 7410
+1. Design and study of JK, T, D, SR flip-flop using NAND gate
+2. Design and study of Half-Adder and Full-Adder
+3. Design and study of Half-Subtractor and Full-Subtractor
