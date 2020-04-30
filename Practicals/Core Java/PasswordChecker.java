@@ -1,0 +1,17 @@
+import java.io.*;
+class PasswordChecker
+{
+	public static void main(String[] args) 
+	{
+		Console c=System.console();
+		System.out.print("Enter your name : ");
+		String n=c.readLine();
+		System.out.print("Enter your password : ");
+		char p[]=c.readPassword();
+		String pass=new String (p);
+		if(n.equals("Faran") && pass.equals("12345"))
+			System.out.println("Access granted!");
+		else
+			System.out.println("Access denied!");
+	}
+}

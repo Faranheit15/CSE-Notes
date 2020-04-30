@@ -1,0 +1,22 @@
+import java.io.*;
+class StringPalindrome 
+{
+	public static void main(String[] args) throws Exception
+	{
+		BufferedReader br=new BufferedReader(new InputStreamReader (System.in));
+		String a, rev="";
+		int l;
+		System.out.print("Enter the String to be checked : ");
+		a=br.readLine();
+		l=a.length();
+		for(int i=l-1;i>=0;i--)
+		{
+			char ch=a.charAt(i);
+			rev=rev+ch;
+		}
+		if(a.equalsIgnoreCase(rev))
+			System.out.println("String is Palindrome");
+		else
+			System.out.println("Not Palindrome");
+	}
+}

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Face()
+comment1.params=we
+comment1.target=void\ windowActivated(java.awt.event.WindowEvent)
+comment2.params=we
+comment2.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment3.params=me
+comment3.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment4.params=g
+comment4.target=void\ paint(java.awt.Graphics)
+comment5.params=tahir
+comment5.target=void\ main(java.lang.String[])
+comment5.text=public\ void\ run()\r\n\t{\r\n\t\tif(shut)\r\n\t\t\t\tshut\=false;\r\n\t\t\telse\r\n\t\t\t\tshut\=true;\r\n\t\ttry\r\n\t\t{\r\n\t\t\ttt.sleep(500);\t\r\n\t\t}catch(InterruptedException\ e)\t\r\n\t\t\t\t\r\n}
+numComments=6
